@@ -1,0 +1,1 @@
+const e=document.querySelector("nav"),i=document.querySelector(".burger");e.style.visibility="visible";i.style.visibility="visible";i.addEventListener("click",()=>{const t=e.getAttribute("data-visible");t==="false"?e.setAttribute("data-visible",!0):t==="true"&&e.setAttribute("data-visible",!1)});
